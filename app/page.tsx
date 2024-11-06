@@ -1,3 +1,5 @@
+import { Button } from "./_components/ui/button";
+
 export default function Home() {
-  return <div className="text-red-500">oi</div>;
+  return <Button>oi</Button>;
 }
