@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { Button } from "../_components/ui/button";
+import { LogInIcon } from "lucide-react";
 
 const LoginPage = () => {
   return (
@@ -18,6 +20,10 @@ const LoginPage = () => {
           monitorar suas movimentações, e oferecer insights personalizados,
           facilitando o controle do seu orçamento.
         </p>
+        <Button variant="outline">
+          <LogInIcon className="mr-2" />
+          Fazer Login ou criar conta
+        </Button>
       </div>
       {/* DIREITA */}
       <div className="relative h-full w-full">
