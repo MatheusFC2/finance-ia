@@ -19,7 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${mulish.className} ${mulish.className} antialiased`}>
+      <body
+        className={`${mulish.className} ${mulish.className} dark antialiased`}
+      >
         {children}
       </body>
     </html>
